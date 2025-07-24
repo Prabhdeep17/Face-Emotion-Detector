@@ -1,0 +1,8 @@
+path: C:/Users/Omen/OneDrive/Desktop/project/dataset  # root dir
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 8
+names: ["Anger", "Contempt", "Disgust", "Fear", "Happy", "Neutral", "Sad", "Surprise"]

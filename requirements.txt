@@ -1,0 +1,24 @@
+# --- YOLOv8 Core ---
+ultralytics==8.2.0
+
+# --- PyTorch with CUDA 11.8 (for RTX 4060) ---
+torch==2.2.0+cu118
+torchvision==0.17.0+cu118
+torchaudio==2.2.0+cu118
+# Install these using: pip install torch==... --index-url https://download.pytorch.org/whl/cu118
+
+# --- General ML/Utils ---
+numpy
+opencv-python
+matplotlib
+PyYAML
+tqdm
+scipy
+pillow
+
+# --- Streamlit for GUI/Web App ---
+streamlit==1.35.0
+
+# --- Optional: for charts and better Streamlit UX ---
+seaborn
+plotly
