@@ -12,8 +12,8 @@ def load_model():
 model = load_model()
 
 st.set_page_config(page_title="Emotion Detector", layout="centered")
-st.title("📸 Emotion Detector")
-st.write("Upload a photo and I’ll tell you the detected emotion.")
+st.title("📸 Face Emotion Detector")
+st.write("Upload a photo and I’ll try to tell the detected emotion.")
 
 # Upload image
 image_file = st.file_uploader("Choose an image", type=["jpg", "jpeg", "png"])
@@ -42,7 +42,7 @@ if image_file is not None:
             found = True
 
         if not found:
-            st.warning("No emotion detected.")
+            st.warning("Oops! No emotion detected.")
 
     except Exception as e:
         st.error(f"Error: {e}")
