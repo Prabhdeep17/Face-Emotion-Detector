@@ -21,7 +21,7 @@ with st.sidebar:
     This is a **YOLOv8-based Face Emotion Detector** deployed using Streamlit.
 
     - Detects 8 emotions: Happy, Sad, Angry, Fear, Disgust, Surprise, Neutral, Contempt
-    - Model: YOLOv8n6, fine-tuned on a custom dataset
+    - Model: YOLOv8n, fine-tuned on a custom dataset
     - Built and deployed in Python using Ultralytics + Streamlit
     """)
 
